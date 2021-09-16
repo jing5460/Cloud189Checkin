@@ -130,7 +130,7 @@ def login(username, password):
         }
     data = {
         "appKey": "cloud",
-        "accountType": '02',
+        "accountType": '03',
         "userName": f"{{RSA}}{username}",
         "password": f"{{RSA}}{password}",
         "validateCode": "",
